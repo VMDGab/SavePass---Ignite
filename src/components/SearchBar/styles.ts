@@ -1,5 +1,5 @@
 import styled from 'styled-components/native';
-import Feather from '@expo/vector-icons/Feather';
+import { Feather } from '@expo/vector-icons'; 
 import { TextInput } from 'react-native';
 import { RFValue } from 'react-native-responsive-fontsize';
 
@@ -34,8 +34,8 @@ export const Button = styled.Pressable`
   justify-content: center;
 `;
 
-export const Icon = styled(Feather).attrs({
-  size: 24,
-  color: '#3D434D'
-})``;
+export const Icon = styled(Feather)` 
+font-size: 24px;
+color: #3D434D;
+`
 

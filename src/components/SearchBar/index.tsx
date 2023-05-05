@@ -5,7 +5,7 @@ import {
   Container,
   Input,
   Button,
-  Icon
+  Icon,
 } from './styles';
 
 interface SearchBarProps extends TextInputProps {
